@@ -1,0 +1,53 @@
+body {
+    background-color:lightpink;
+    color: white;
+}
+h1 {
+    background-color: cornsilk;
+    color:blue;
+}
+#show_sketch {
+    float: right;
+}
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+#ImgToBeDrawn{
+    font-size: 30px;
+    color: red;
+}
+#score{
+    font-size: 25px;
+    margin-left: 150px;
+}
+#timer{
+    font-size: 25px;
+    float: right;
+    margin-right: 170px;
+}
+#clearCanvas {
+margin-left: 600px;
+}
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:200px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+}
+p, span
+  {
+    padding-top:10px;
+    font-size:25px;  
+  }
+
